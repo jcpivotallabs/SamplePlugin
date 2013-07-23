@@ -1,0 +1,3 @@
+# SamplePlugin #
+
+Miscellaneous RubyMine intentions.
