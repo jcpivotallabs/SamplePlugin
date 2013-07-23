@@ -8,7 +8,7 @@ import com.intellij.psi.tree.IElementType;
 import com.intellij.util.IncorrectOperationException;
 import org.jetbrains.annotations.NotNull;
 
-public class SamplePlugin extends PsiElementBaseIntentionAction {
+public class ToggleBoolean extends PsiElementBaseIntentionAction {
     @NotNull
     @Override
     public String getText() {

@@ -38,7 +38,7 @@
 
   <extensions defaultExtensionNs="com.intellij">
       <intentionAction>
-          <className>com.yourcompany.SamplePlugin</className>
+          <className>com.yourcompany.ToggleBoolean</className>
       </intentionAction>
   </extensions>
 </idea-plugin>

@@ -11,7 +11,7 @@ import org.jetbrains.annotations.NotNull;
 
 import java.io.File;
 
-public class SamplePluginTest extends LightCodeInsightFixtureTestCase {
+public class ToggleBooleanTest extends LightCodeInsightFixtureTestCase {
     public void testTogglingTrueToFalse() {
         myFixture.configureByFile("before" + getTestName(false) + ".java");
         IntentionAction intention = myFixture.findSingleIntention("Toggle boolean");
@@ -50,7 +50,7 @@ public class SamplePluginTest extends LightCodeInsightFixtureTestCase {
     }
 
     private static File getSourceRoot() {
-        String testOutput = PathManager.getJarPathForClass(SamplePluginTest.class);
+        String testOutput = PathManager.getJarPathForClass(ToggleBooleanTest.class);
         return new File(testOutput, "../../..");
     }
 }
