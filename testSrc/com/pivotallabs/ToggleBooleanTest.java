@@ -26,6 +26,13 @@ public class ToggleBooleanTest extends LightCodeInsightFixtureTestCase {
         myFixture.checkResultByFile("after" + getTestName(false) + ".java");
     }
 
+    public void testTogglingWithCaretAfterBoolean() {
+        myFixture.configureByFile("before" + getTestName(false) + ".java");
+        IntentionAction intention = myFixture.findSingleIntention("Toggle boolean");
+        myFixture.launchAction(intention);
+        myFixture.checkResultByFile("after" + getTestName(false) + ".java");
+    }
+
     private static class MyDescriptor extends DefaultLightProjectDescriptor {
         @Override
         public Sdk getSdk() {
