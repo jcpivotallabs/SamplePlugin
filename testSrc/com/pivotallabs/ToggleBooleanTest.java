@@ -1,4 +1,4 @@
-package com.yourcompany;
+package com.pivotallabs;
 
 import com.intellij.codeInsight.intention.IntentionAction;
 import com.intellij.openapi.application.PathManager;

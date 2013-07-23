@@ -38,7 +38,7 @@
 
   <extensions defaultExtensionNs="com.intellij">
       <intentionAction>
-          <className>com.yourcompany.ToggleBoolean</className>
+          <className>com.pivotallabs.ToggleBoolean</className>
       </intentionAction>
   </extensions>
 </idea-plugin>

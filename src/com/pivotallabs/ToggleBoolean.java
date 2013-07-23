@@ -1,4 +1,4 @@
-package com.yourcompany;
+package com.pivotallabs;
 
 import com.intellij.codeInsight.intention.PsiElementBaseIntentionAction;
 import com.intellij.openapi.editor.Editor;
